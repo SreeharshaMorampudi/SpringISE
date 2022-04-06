@@ -19,7 +19,8 @@ public class Login extends HttpServlet {
       super();
    }
 
-   protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+   protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+   {
       String uname = request.getParameter("user");
       String upwd= request.getParameter("user_pwd");
       System.out.println("Entered Login.java doget");
